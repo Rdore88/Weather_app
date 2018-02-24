@@ -74,13 +74,13 @@ public class CurrentObservation {
     private Double windMph;
     @SerializedName("wind_gust_mph")
     @Expose
-    private Integer windGustMph;
+    private Double windGustMph;
     @SerializedName("wind_kph")
     @Expose
     private Double windKph;
     @SerializedName("wind_gust_kph")
     @Expose
-    private Integer windGustKph;
+    private Double windGustKph;
     @SerializedName("pressure_mb")
     @Expose
     private String pressureMb;
@@ -351,11 +351,11 @@ public class CurrentObservation {
         this.windMph = windMph;
     }
 
-    public Integer getWindGustMph() {
+    public Double getWindGustMph() {
         return windGustMph;
     }
 
-    public void setWindGustMph(Integer windGustMph) {
+    public void setWindGustMph(Double windGustMph) {
         this.windGustMph = windGustMph;
     }
 
@@ -367,11 +367,11 @@ public class CurrentObservation {
         this.windKph = windKph;
     }
 
-    public Integer getWindGustKph() {
+    public Double getWindGustKph() {
         return windGustKph;
     }
 
-    public void setWindGustKph(Integer windGustKph) {
+    public void setWindGustKph(Double windGustKph) {
         this.windGustKph = windGustKph;
     }
 
